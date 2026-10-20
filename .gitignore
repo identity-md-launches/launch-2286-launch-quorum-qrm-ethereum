@@ -1,0 +1,6 @@
+out/
+cache/
+/fixtures/external-build/lib/
+/fixtures/external-build/cache/
+__pycache__/
+*.pyc

@@ -1,0 +1,24 @@
+{
+  "chainId": 1,
+  "constitution": {
+    "address": "0x48a78afb5397abeab5be23473973c5c62497cf55",
+    "textBytes": 14292,
+    "sha256": "b765babd0713186d7796f8a5fb3eec64cae0be1a1d7229b69e9a570fb279ef6f",
+    "runtimeVerified": true,
+    "transactionHash": "0xace6ae77c46ae42cfbf5a5f4e3974f774a7f46851d07f7ebb0ec65935c4ef84b"
+  },
+  "coreCode": {
+    "address": "0x5f8c721d44d5815ae9e6d54ff20e717d56ec0d91",
+    "parts": [
+      "0x5c28f530cd3b01d4695655155d50cf9a220af4e3",
+      "0xfca3358d9b0855f72181e8b6b11a126f2cb55b8a"
+    ],
+    "creationBytes": 43011,
+    "creationKeccak256": "0xd2bbf5e7909b60833f9722b4668dada7d1dd31873d981fda645ca8e5ffaf305b",
+    "runtimeVerified": true,
+    "transactionHash": "0x0a83f230a790f87f5b96d7c799685923bdc193cffe0ec8eaf47ff94ee8a6bd51",
+    "confirmations": 3
+  },
+  "runtimeAndReceiptsVerified": true,
+  "gasCostWei": 572778497226374
+}

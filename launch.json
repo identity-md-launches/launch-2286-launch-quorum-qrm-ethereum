@@ -1,0 +1,29 @@
+{
+  "kind": "univ4_hook",
+  "hook": {
+    "contract": "QuorumIssuanceHook",
+    "constructorArgs": [
+      "$poolManager",
+      "$token"
+    ],
+    "permissions": [
+      "beforeInitialize",
+      "beforeAddLiquidity",
+      "beforeSwap",
+      "afterSwap"
+    ]
+  },
+  "token": {
+    "contract": "QuorumToken",
+    "name": "QUORUM",
+    "symbol": "QRM",
+    "decimals": 18
+  },
+  "pool": {
+    "pairedCurrency": "0xd34a99bc0f67ae1bbd63c660e6d0b0dd03e263b7",
+    "fee": 12500,
+    "tickSpacing": 60,
+    "initialPrice": "79228162514264337593543950336"
+  },
+  "notes": "QUORUM production preparation. Dependencies must be VERIFIED_DEPLOYED. Preserve fixed source and governance. Use official opening policy and poolBps 9000. Transfer requester fee rights to bound Hook. initialPrice is a schema reference, not an opening override. Do not submit before verification."
+}

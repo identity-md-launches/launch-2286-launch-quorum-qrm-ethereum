@@ -1,0 +1,16 @@
+[profile.default]
+src = "src"
+test = "test"
+out = "out"
+# A test can replay many weeks; this is NOT a mainnet transaction gas limit.
+gas_limit = 5000000000
+solc_version = "0.8.28"
+evm_version = "cancun"
+optimizer = true
+optimizer_runs = 200
+via_ir = true
+bytecode_hash = "none"
+remappings = ["v4-core/=lib/v4-core/","solmate/=lib/v4-core/lib/solmate/", "@openzeppelin/contracts/=lib/imd-launch-verified/lib/openzeppelin-contracts/contracts/"]
+fs_permissions = [{ access = "read", path = "./constitution.en.md" }, { access = "read", path = "./fixtures" }]
+[fuzz]
+runs = 1000

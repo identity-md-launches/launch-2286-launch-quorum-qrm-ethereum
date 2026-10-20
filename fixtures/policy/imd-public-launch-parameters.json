@@ -1,0 +1,27 @@
+{
+  "url": "https://etherscan.io/tx/0x928073fa93ca785d4f2e862e0ce170f3647c783d0fc17a9fbd8c8bb3a78f3ddd",
+  "source": "Etherscan displayed transaction input; decoded using verified LaunchFactory ABI",
+  "transactionHash": "0x928073fa93ca785d4f2e862e0ce170f3647c783d0fc17a9fbd8c8bb3a78f3ddd",
+  "blockNumber": 26221005,
+  "factory": "0x12c63b581d07093f6126bc02263c58f7eadaa96f",
+  "inputSha256": "8695418b419cf81039aa562de2a6f32674b137955bb779e00ef4d6f56fae523d",
+  "selected": {
+    "launchNumber": 2176,
+    "hookFlags": 16383,
+    "totalSupply": 1000000000000000000000000000,
+    "poolBps": 9000,
+    "contributorLockSeconds": 3600,
+    "sweepDelaySeconds": 31536000,
+    "pairedCurrency": "0xd34a99bc0f67ae1bbd63c660e6d0b0dd03e263b7",
+    "fee": 12500,
+    "tickSpacing": 60,
+    "sqrtPriceX96": 125270724187523965593206900,
+    "tickLower": -128940,
+    "tickUpper": 887220,
+    "liquidity": 1427203723558688610055083,
+    "requester": "0x92cef4823119f3332a85a39023eeba01a06890c4"
+  },
+  "tokenCreate2Matches": true,
+  "hookCreate2Matches": true,
+  "policyVersion": 34
+}

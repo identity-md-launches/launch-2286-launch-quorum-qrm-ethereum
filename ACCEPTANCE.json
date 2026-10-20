@@ -1,0 +1,159 @@
+{
+  "scope": "All 63 discovered normal Solidity cases, including every previous mandatory case and approved budget/quota lifecycle coverage.",
+  "requiredSuites": {
+    "test/compatibility/FixedTokenBindingPositive.t.sol": {
+      "sha256": "c846e6e4e26516722e5321fd856ddd74494ba5a3a8af10f7e603d644e7dd5b39",
+      "requiredCases": [
+        "testNormalAtomicFactorySeedRecordProofAndClaim()",
+        "testNormalBuySellAndFactoryFeeCollection()",
+        "testNormalZeroArgumentCandidateBinding()"
+      ]
+    },
+    "test/compatibility/GovernancePoolPositive.t.sol": {
+      "sha256": "e49566d1b632de0d758381cb13b94f7c8e8a6fc22a25ec0163f858575e684e5d",
+      "requiredCases": [
+        "testNormalAcceptedWorkRetiresOrganizationQuotaAndPaysReward()",
+        "testNormalApprovedTaskExceedsBudgetThenRetriesWithinBudget()",
+        "testNormalAtomicFactorySeedRecordProofAndClaim()",
+        "testNormalBuySellAndFactoryFeeCollection()",
+        "testNormalLaunchTaxFundsQualifiedMembersAndAcceptedWork()",
+        "testNormalManifestPermissionsMatchConstructor()",
+        "testNormalPlatformFeesReachTwoAssetTreasury()",
+        "testNormalProcurementRetiresOnlySpentOrganizationQuota()",
+        "testNormalTwoAssetAllowanceWorkRewardAndSale()",
+        "testNormalUnavailableServiceRollsBackTradeAndCanRetry()",
+        "testNormalVotedBuyThenSellTaxAndRefunds()",
+        "testNormalVotedFeeCollectionSplitsIncomeOnlyOnce()"
+      ]
+    },
+    "test/positive/AgendaResponsePositive.t.sol": {
+      "sha256": "54bbef616f32a6bb24296661cdecd7dc9b9ffd4f00f94dc60b61df83a045e4bf",
+      "requiredCases": [
+        "testNormalInFlightResponseSurvivesWorkerProgressMessage()",
+        "testNormalResponseAtExistingAnchorAgeLimit()",
+        "testNormalResponseWithNoAgendaYet()",
+        "testNormalSameBlockMessagesUseFinalConfirmedRevision()"
+      ]
+    },
+    "test/positive/GovernancePositive.t.sol": {
+      "sha256": "273f53fd62fef4b73639ec1478d44275624f41af9665f371b699ec2948b7b312",
+      "requiredCases": [
+        "testNormalDelayedResolutionDoesNotExtendRepairClock()",
+        "testNormalFixedStakeHasNoSnapshotOrSeatCap()",
+        "testNormalJoinAuthorizationAndSeparateStake()",
+        "testNormalKeyRotationCarriesStakeAndPreservesPastEarnings()",
+        "testNormalMissedRepairReturnsBudget()",
+        "testNormalOneRepairFreshVoteThenPayment()",
+        "testNormalOperatingConversionNameAndLaterUpdate()",
+        "testNormalSecondUnapprovedDeliveryReturnsBudget()",
+        "testNormalSnapshotTimeoutAndRepairClock()",
+        "testNormalSuspendedMemberCanExitAndReceiveOriginalStake()",
+        "testNormalSuspensionPreservesOldBallotAndRecoversAfterFourWeeks()",
+        "testNormalTwoQualifiedPeriodsAndAllowanceClaim()",
+        "testNormalTwoWorkRoundsAndExit()",
+        "testNormalUnavailableServiceLeavesBudgetAndAllowsRetry()"
+      ]
+    },
+    "test/positive/ImdFactoryPositive.t.sol": {
+      "sha256": "9831e156d60ba677d1404deb7582c54fd936296d271388ffde9c6b8408cd9384",
+      "requiredCases": [
+        "testNormalAtomicFactorySeedRecordProofAndClaim()",
+        "testNormalBuySellAndFactoryFeeCollection()",
+        "testNormalLaunchTaxFundsQualifiedMembersAndAcceptedWork()",
+        "testNormalPlatformFeesReachTwoAssetTreasury()",
+        "testNormalTwoAssetAllowanceWorkRewardAndSale()"
+      ]
+    },
+    "test/positive/NormalIntegrated.t.sol": {
+      "sha256": "5dbfa135c594eab8d1329afe179f260181c6a17fde29ec4cca61305e69313940",
+      "requiredCases": [
+        "testNormalFixedStakeHasNoSnapshotOrSeatCap()",
+        "testNormalJoinAuthorizationAndSeparateStake()",
+        "testNormalKeyRotationCarriesStakeAndPreservesPastEarnings()",
+        "testNormalTwoQualifiedPeriodsAndAllowanceClaim()",
+        "testNormalTwoWorkRoundsAndExit()"
+      ]
+    },
+    "test/positive/OrganizationQuotaPositive.t.sol": {
+      "sha256": "df111eef20d0314eb5b539c67d325b7c0d9f5f1cc5e282df0be033926d8815f3",
+      "requiredCases": [
+        "testNormalBuyAndProcurementKeepsOnlyReturnedCredit()",
+        "testNormalDonationRefundDoesNotCreateCredit()",
+        "testNormalRewardPayoutRetiresExistingCreditDownToZero()",
+        "testNormalSaleConsumesCreditOnlyOnce()",
+        "testNormalUnusedBudgetPreservesCredit()"
+      ]
+    },
+    "test/positive/RecusalPositive.t.sol": {
+      "sha256": "9c307a9175ea2f519a84f6863e80eac25771ad364fce07a44ea83eb9652b013b",
+      "requiredCases": [
+        "testNormalManyInterestedMembersLeaveThresholdFixedAndProposalExpires()",
+        "testNormalSeparateWorkerAndRecipientRemainInBudgetAndAcceptanceDenominator()",
+        "testNormalTenQualifiedSeatsRequireSevenWithDeclaredRecipients()"
+      ]
+    },
+    "test/positive/RevenueAndScalePositive.t.sol": {
+      "sha256": "431619ba6a732618a410c39735de4ed8c629942d70c4e4d8ba64895998391e30",
+      "requiredCases": [
+        "testNormalAnyoneMayRecognizeOperatingDonationsWithoutProposal()",
+        "testNormalDirectSupportedDonationsRecognizedExactlyOnce()",
+        "testNormalFixedStakeHasNoSnapshotOrSeatCap()",
+        "testNormalHistoricalRegistrationsDoNotIncreaseEmptyWeekScan()",
+        "testNormalJoinAuthorizationAndSeparateStake()",
+        "testNormalKeyRotationCarriesStakeAndPreservesPastEarnings()",
+        "testNormalLateDonationRecognitionDoesNotRewriteClosedBudget()",
+        "testNormalOperatingDonationsAreIncomeBeforeBudgetAndRefund()",
+        "testNormalRegistrationIndexMatchesRotationExpiryAndExit()",
+        "testNormalResponderBatchesPreserveAllRegisteredDenominator()",
+        "testNormalTwoQualifiedPeriodsAndAllowanceClaim()",
+        "testNormalTwoWorkRoundsAndExit()"
+      ]
+    }
+  },
+  "immutableRules": [
+    "Fixed stake independent of later distribution snapshot",
+    "No core administrator override or upgrade",
+    "One staking address per seat without total seat cap",
+    "3 percent project tax in IMD in each direction, in addition to platform fees",
+    "Separate 50/50 accounting per supported asset",
+    "Original wallet allocation and paid reward quota remain independently authenticated",
+    "Principal refunds to original depositor and approved work payments to fixed recipient",
+    "Four complete suspension weeks preserve fixed old electorates, earned rights and exit.",
+    "One seven-day repair; second failure or expiry returns the work reserve.",
+    "Exact operating calls use isolated approved budgets; failed calls do not mark completion.",
+    "Electorates assemble within seven days; deadlines do not extend when callers are late.",
+    "Recusal removes voting rights for this ballot but never reduces its qualified non-suspended approval denominator.",
+    "Unaccounted supported-token donations are recognized once as 50/50 revenue; operating execution returns remain operating property.",
+    "Weekly registration denominator preserves start-of-week membership rules; settlement visits only that week responders in bounded batches.",
+    "Hourly responses bind the agenda revision at the confirmed anchor block; later changes cannot invalidate that observed state."
+  ],
+  "requiredCommands": [
+    "python tools/verify_candidate.py",
+    "forge test --json",
+    "python tools/verify_candidate.py --submission"
+  ],
+  "deploymentRequirements": [
+    "getHookPermissions() must exactly match manifest flags 0x28c0 and deployed Hook address bits",
+    "Verified mainnet receipts and runtime of the fixed constitution and creation-code package before submission",
+    "Exact core creation bytes from the package must equal the compiled core, and constitution bytes must equal committed English text",
+    "Hook creates Core atomically using actual Token and Hook addresses; no mutable binding, administrator, proxy or delegatecall",
+    "Actual factory launch must fit current transaction gas/initcode/runtime limits",
+    "Read actual Hook.core() and verify all child bindings and official registry after deployment",
+    "Confirm requester fee recipient is Hook or perform payer-authorized future-fee handover before acceptance",
+    "Normal approved operating buy/sell and platform-fee income must reconcile once, including failures/retry; no double credit of nested tax"
+  ],
+  "limitations": [
+    "Positive workflows and ordinary unavailable-service handling only; not a complete security audit.",
+    "Additional protocol/system requirements in RULE-MAP.md still need final release verification.",
+    "Current fixed stake and account/time/token data are local fixtures.",
+    "New adversarial or bypass testing remains outside the current authorization."
+  ],
+  "optionalExternalArtifactRebuild": "python tools/build_external_fixtures.py",
+  "requiredCommandsNote": "Submission gate must intentionally fail until live prerequisites and final token binding are verified. Local acceptance has separate test-budget and actual transaction-cap evidence.",
+  "ruleChangeProvenance": {
+    "userApproved": "Recusal denominator; recognition-week direct income; pre-execution operating donations; execution capital/refunds remain operations; no membership cap.",
+    "previousMandatoryCasesRetained": 29,
+    "newMandatoryCases": 7,
+    "noWeakenedFinancialAssertions": true
+  }
+}
